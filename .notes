@@ -1,0 +1,14 @@
+https://newest-thrumming-daylight.solana-testnet.quiknode.pro/ac301e78b878c03111c8454e3f14bacc4f8b0471
+
+https://newest-thrumming-daylight.solana-mainnet.quiknode.pro/ac301e78b878c03111c8454e3f14bacc4f8b0471
+
+
+
+solana program set-upgrade-authority <PROGRAM_ADDRESS> --new-upgrade-authority <NEW_UPGRADE_AUTHORITY>
+solana program deploy ./target/deploy/your_program.so --final
+solana program show --buffers
+
+
+cargo build-sbf --dump 
+returned:
+Error: Function _ZN137_$LT$swap..instructions..take_offer..TakeOffer$u20$as$u20$anchor_lang..Accounts$LT$swap..instructions..take_offer..TakeOfferBumps$GT$$GT$12try_accounts17h67c827697e081fadE Stack offset of 4184 exceeded max offset of 4096 by 88 bytes, please minimize large stack variables. Estimated function frame size: 4416 bytes. Exceeding the maximum stack offset may cause undefined behavior during execution.
